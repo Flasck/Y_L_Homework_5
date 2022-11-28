@@ -1,4 +1,7 @@
-import { render, screen } from "react-scripts-test"
+/**
+ * @jest-environment jsdom
+ */
+import { render, screen } from "@testing-library/react"
 import Contacts from "../../src/client/pages/Contacts"
 
 test("renders learn react link", () => {
